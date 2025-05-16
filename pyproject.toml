@@ -1,0 +1,18 @@
+[project]
+name = "didactic-disco"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Gal Somovic",email = "galsomovic@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.45.1",
+    "streamlit-desktop-app>=0.3.4"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
